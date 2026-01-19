@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Background -->
+  <rect width="200" height="60" fill="#0f172a"/>
+  
+  <!-- Logo Icon - Abstract trending chart with AI nodes -->
+  <g transform="translate(10, 8)">
+    <!-- Main trending line -->
+    <path d="M4 38 L12 28 L20 32 L28 18 L36 22 L44 8" 
+          stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Data nodes -->
+    <circle cx="12" cy="28" r="2.5" fill="#f97316"/>
+    <circle cx="28" cy="18" r="2.5" fill="#f97316"/>
+    <circle cx="44" cy="8" r="3" fill="#f97316"/>
+    
+    <!-- Arrow head at end -->
+    <path d="M40 4 L44 8 L40 12" stroke="#f97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Subtle grid lines -->
+    <line x1="0" y1="44" x2="48" y2="44" stroke="#334155" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="44" stroke="#334155" stroke-width="1"/>
+  </g>
+  
+  <!-- IndusVC Text -->
+  <text x="64" y="32" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="white">
+    Indus<tspan fill="#f97316">VC</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="64" y="48" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="400" fill="#64748b" letter-spacing="0.5">
+    Financial Intelligence
+  </text>
+</svg>
